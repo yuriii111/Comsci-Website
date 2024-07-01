@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    
+}
+.logo{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: aliceblue;
+    line-height: 5;
+  }
+  .logo2{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: aliceblue;
+    line-height: 5;
+  }
+  .pic img{
+    max-width: 100%;
+    text-align: center;
+
+  }
+  .data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .under{
+    display: flex;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+    
+nav{
+    width: 100%;
+    background-color: rgb(234, 207, 231);
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 120px;
+
+}
+nav ul{
+    float: right;
+
+}
+nav ul li{
+    float:left ;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #0f0e0e;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 16px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #eef0f8;
+}
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: #eef0f8;
+    border-radius: 0px 0px 5px 5px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li{
+    line-height: 1;
+    width: 190px;
+    border-radius: 5px;
+    padding: 6px;
+}
+nav ul li ul li a{
+    padding: 10px 16px;
+
+}
+nav ul li ul li a{
+    background-color: #eef0f8;
+}
+
+footer {
+	clear:both;
+	background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);	color:#FFFFFF;
+	min-height: 480px;
+}
+footer > section {
+	padding:1em 0 0.5em 3em;
+}
+footer > section > span {
+	display: inline-block;
+}
+
+footer > section > a > img {
+	width: 11em;
+}
+#section{
+	display: block;
+	padding: 2em 0 1em 15%;
+    font-size: 20px;
+}
+
+article h3{
+    border-bottom: dotted 0.5em rgb(104, 159, 192);
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #3e3f45;
+    font-size: 25px;
+}
+#piya {
+	float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+     
+}
+#Srisuda{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Chanwit{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Thawatchai{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Kulchaya{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Nopparat{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Sureeporn{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px; 
+}
+#Chananate{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Satira{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#chadchai{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Orasa{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Monrada{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#nilubol{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Supharoek{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#Sirion{
+    float: left;
+	width: 200px;
+    height: auto;
+	margin: 10px 20px;
+}
+#up{
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    color: rgb(110, 101, 101);
+}
+
+@media screen and (max-width:720px) {
+    section {width: 100px;; margin:10px;}
+    header section {padding: 1em 0 1em 0;margin: 0;}
+    nav {text-align: left;padding: 0 5px 0 5px;}
+    nav ul {width: 100%;}
+    nav h2 {display:none;}
+    nav ul li {position: static;padding: 0;}
+    nav li ul {display: block;box-shadow:none;}
+    nav ul li ul li {display: list-item;}
+    nav ul li a {display: inline-block;font-size: medium;}
+    nav li:hover ul {position: static;}
+    
+    
+    ul.topnav li:not(:first-child) {display: none;} 
+    article > section {padding: 0 2% 0 3%; font-size: small;}
+    article > section > nav {padding: 0 2% 0 2%;}
+    article > section > h4 {padding-left: 0;margin-left: 0;}
+    article > section > dl {margin-left:0;}
+    article > section > div{margin: 0 0.5em 0 0;font-size: 1.1em;display: block;}
+    article > section > div > table {width: 100%;}
+    article > section > div > img {margin-left: 0; width: 100%;}
+    
+    article > section > #piya {width: 50%;}
+    article > section > #Srisuda {width: 50%;}
+    article > section > #Chanwit {width: 50%;}
+    article > section > #Thawatchai {width: 50%;}
+    article > section > #Kulchaya {width: 50%;}
+    article > section > #Nopparat {width: 50%;}
+    article > section > #Sureeporn {width: 50%;}
+    article > section > #Chananate {width: 50%;}
+    article > section > #Satira {width: 50%;}
+    article > section > #chadchai {width: 50%;}
+    article > section > #Orasa {width: 50%;}
+    article > section > #Monrada {width: 50%;}
+    article > section > #nilubol {width: 50%;}
+    article > section > #Supharoek {width: 50%;}
+    article > section > #Sirion {width: 50%;}
+    article dl{float: inherit; margin-left: 0;}
+    
+    footer {min-height: 200px;}
+    footer > #right {display:none;}
+    footer > #left  {padding: 2em;}
+    footer > section > iframe {display: none;}
+    
+}
+
+@media screen and (max-width:680px) {
+      ul.topnav.responsive {position: relative;}
+      ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+      }
+      ul.topnav.responsive li {
+        float: none;
+        display: inline;
+      }
+      ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+      }
+    }
